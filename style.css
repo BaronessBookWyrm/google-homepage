@@ -1,0 +1,49 @@
+
+
+/* Google Logo */
+img {
+  display: block;
+  margin: auto;
+  padding-top: 100px;
+}
+
+/* Top Nav Bar -- need to push all elements right wo change sequence*/
+
+div.tnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+position: fixed;
+top: 0;
+right: 0;
+font-family: serif; /* problem: cant get the font to change */
+
+}
+
+/* Affects both nav bars, top and bottom */
+li {
+  padding: 5px;
+  display: inline;
+
+}
+
+ul:hover {
+  text-decoration: underline;
+}
+
+/* Footer Nav bar*/
+
+div.footer {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+position: fixed;
+bottom: 0;
+font-family: sans-serif;
+border: 3px solid #black;
+background-color: #e3e8f0;
+width: 100%;
+display: inline;
+margin-right: 30px; /* cant get space between words and edge of screen*/
+
+}
